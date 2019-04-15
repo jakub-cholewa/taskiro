@@ -1,0 +1,12 @@
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: limegreen;
+    text-align: center;
+    color:white;
+    font-size: 19px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+

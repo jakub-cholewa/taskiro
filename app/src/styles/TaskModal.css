@@ -1,0 +1,117 @@
+#task-modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: white;
+    padding: 15px;
+    z-index: 10;
+    width: 800px;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 8px 3px -2px rgba(0,0,0,0.50);
+    -moz-box-shadow: 8px 8px 3px -2px rgba(0,0,0,0.50);
+    box-shadow: 8px 8px 3px -2px rgba(0,0,0,0.50);
+    box-sizing: border-box;
+}
+
+#task-modal form{
+    width: 100%;
+    margin: 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#task-modal form label{
+    font-size: 15px;
+    display: block;
+    margin: 20px 0;
+    flex: 1 0 50%;
+    position: relative;
+}
+
+#task-modal form label:nth-child(odd){
+    border-right: 1px lightgray dashed;
+}
+
+#task-modal form ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+
+#task-modal ul li{
+    width: 43px;
+    height: 40px;
+    border-left:1px solid white;
+    cursor: pointer;
+}
+
+#task-modal ul li:hover > img{
+    border: 2px solid forestgreen;
+}
+
+#task-modal ul li img{
+    width: 43px;
+    height: 40px;
+}
+
+#task-modal form input{
+    height: 40px;
+    padding: 10px;
+}
+
+#task-modal form textarea{
+    resize: none;
+    height: 60px;
+}
+
+#task-modal form input,textarea{
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 0;
+    border: 1px solid slategray;
+}
+
+#task-modal form input:focus,textarea:focus{
+    border: 1px solid limegreen;
+}
+
+#task-modal form textarea:required, input:required{
+    box-shadow: none;
+}
+
+
+#task-modal form input[type="submit"]{
+    width: 90%;
+    margin-top: 20px;
+    background-color: limegreen;
+    color:white;
+    border: none;
+    height: 50px;
+}
+
+#task-modal form input[type="submit"]:hover{
+    background-color: forestgreen;
+}
+
+#task-modal button{
+    width: 90%;
+    background-color: limegreen;
+    color:white;
+    border: none;
+    height: 50px;
+}
+
+#task-modal button:hover{
+    background-color: forestgreen;
+}
+
+
+

@@ -1,0 +1,46 @@
+#add-task-button{
+    background: limegreen;
+    width:80px;
+    height: 80px;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 35px;
+    -webkit-box-shadow: 8px 8px 3px -2px rgba(0,0,0,0.50);
+    -moz-box-shadow: 8px 8px 3px -2px rgba(0,0,0,0.50);
+    box-shadow: 8px 8px 3px -2px rgba(0,0,0,0.50);
+}
+
+#add-task-button:hover{
+    background: forestgreen;
+}
+
+
+.task-marker{
+    padding:10px;
+    box-sizing: border-box;
+    max-width: 200px;
+}
+
+.task-marker span {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.task-marker span:first-child{
+    font-weight: bold;
+    text-align: center;
+}
+
+.task-marker span:nth-child(even){
+    font-weight: bold;
+}
+
+.task-marker button{
+    display: block;
+    margin: 10px auto 0;
+}
